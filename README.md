@@ -9,6 +9,10 @@ Tested on Wordpress v5.1.1
 2) Upload the folder `wp-log-mysql` to `wp-content/plugins/wp-log-mysql` ( CHMOD file permissions for `sql_log.html` to writeable )
 3) Activate the `WP Log MySQL` plugin in Wordpress admin area in the `Plugins` section.
 
+# Todo
+
+7.May.2019 - Currently an email will be sent for every visitor to site. Recommend setting a flag so the email gets sent only once each time the db goes down!
+
 # Disclaimer
 
 This is a personal project, use at your own risk! ( Back up your site before testing )
