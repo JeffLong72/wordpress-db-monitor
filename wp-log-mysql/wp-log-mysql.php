@@ -3,8 +3,8 @@
  Plugin Name: WP Log MySQL
  Description: Saves the last MySQL Queries that ran to log file.
  Version:     1.0.0
- Author:      ACC Digital (Jeff Long)
- Author URI:  https://www.acc.cc/
+ Author:      Jeff Long
+ Author URI:  
  */
  
 function sql_logger() {
