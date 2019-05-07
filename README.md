@@ -11,4 +11,4 @@ Tested on Wordpress v5.1.1
 
 # Disclaimer
 
-This is a personal project, use at your own risk!
+This is a personal project, use at your own risk! ( Back up your site before testing )
