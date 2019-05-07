@@ -4,7 +4,7 @@
  Description: A few extra functions for wpdb (eg. log mysql queries, send email if database goes down )
  Version: 	  1.0
  Author:	  Jeff Long
- Author URI:  
+ Author URI:  https://github.com/JeffLong72/wordpress-db-monitor
 */
  
 class wpdb_extended extends wpdb {
