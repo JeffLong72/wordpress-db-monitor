@@ -3,8 +3,8 @@
  Plugin Name: Extended wpdb
  Description: A few extra functions for wpdb (eg. log mysql queries, send email if database goes down )
  Version: 	  1.0
- Author:	  ACC Digital (Jeff Long)
- Author URI:  https://www.acc.cc/
+ Author:	  Jeff Long
+ Author URI:  
 */
  
 class wpdb_extended extends wpdb {
