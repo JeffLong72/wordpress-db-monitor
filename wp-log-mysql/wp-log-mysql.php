@@ -9,23 +9,23 @@
  
 function sql_logger() {
 	
-	// get wp db connection
+    // get wp db connection
     global $wpdb;
 	
-	// set log file we want to write too
-	// ( note: use "w" not "a", as we only want the last mysql queries, 
-	//   - we want to overwrite the log file to save on file size )
+    // set log file we want to write too
+    // ( note: use "w" not "a", as we only want the last mysql queries, 
+    //   - we want to overwrite the log file to save on file size )
     $log_file = fopen(dirname(__FILE__).'/sql_log.html', 'w');
 	
-	// write date to log file
+    // write date to log file
     fwrite($log_file, date("F j, Y, g:i:s a")."<br /><br />");
 	
-	// for each mysql query, write to log file
+    // for each mysql query, write to log file
     foreach($wpdb->queries as $q) {
         fwrite($log_file, $q[0] . " - ($q[1] seconds)" . "<br /><br />");
     }
 	
-	// close file
+    // close file
     fclose($log_file);
 }
 
