@@ -1,10 +1,7 @@
 # Wordpress-db-monitor
-Monitors the wordpress db connection status, logs the last MySQL queries and emails report if database connection fails.
+Monitors the wordpress db connection status, logs the last MySQL queries and sends an email report if database connection fails.
 
 Tested on Wordpress v5.1.1
-
-# Purpose
-If the wordpress database goes offline, an email with the db connection error message and the last MySQL queries ran before the db went offline will be sent to the email provided in the wp-content/db.php file.
 
 # Installation
 
