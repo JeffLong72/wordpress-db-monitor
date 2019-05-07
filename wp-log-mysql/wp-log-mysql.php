@@ -4,7 +4,7 @@
  Description: Saves the last MySQL Queries that ran to log file.
  Version:     1.0.0
  Author:      Jeff Long
- Author URI:  
+ Author URI:  https://github.com/JeffLong72/wordpress-db-monitor
  */
  
 function sql_logger() {
