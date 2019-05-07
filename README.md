@@ -11,7 +11,7 @@ Tested on Wordpress v5.1.1
 
 # Todo
 
-7.May.2019 - Currently an email will be sent for every visitor to site. Recommend setting a flag so the email gets sent only once each time the db goes down!
+7.May.2019 - Currently an email will be sent for every visitor to the site during database downtime. Recommend setting a flag so the email gets sent only once each time the db goes down (eg. (a) send email only if tmp file doesnt exist, (b) create tmp file, (c) delete tmp file when db comes back online ).
 
 # Disclaimer
 
