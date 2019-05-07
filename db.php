@@ -10,7 +10,7 @@
 class wpdb_extended extends wpdb {
 	
 	// the email where we want to send reports too
-	private $email_recipient = "jeff.long@acc.cc";
+	private $email_recipient = "your@mail.com";
 	
 	public function __construct()
 	{
